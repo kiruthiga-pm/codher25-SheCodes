@@ -1,0 +1,132 @@
+/* General container */
+.out {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9fefb;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #2f855a;
+  }
+  
+  /* Form elements */
+  form > div {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2d3748;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: #38a169;
+    box-shadow: 0 0 0 2px rgba(56, 161, 105, 0.3);
+  }
+  
+  /* Submit button */
+  button[type="submit"] {
+    background-color: #38a169;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2f855a;
+  }
+  
+  /* Result section */
+  .result-box {
+    background: #e6fffa;
+    border: 1px solid #81e6d9;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    color: #22543d;
+  }
+  
+  .result-box h3,
+  .result-box h4 {
+    color: #2c7a7b;
+  }
+  
+  .result-box ul {
+    margin-top: 0.5rem;
+    padding-left: 1.25rem;
+  }
+  
+  .result-box li {
+    list-style-type: disc;
+  }
+  
+  /* Recommendations */
+  .recommendations {
+    margin-top: 2rem;
+    background: #f0fff4;
+    border: 1px solid #9ae6b4;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .recommendations h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #276749;
+  }
+  
+  .recommendations ul {
+    padding-left: 1.25rem;
+  }
+  
+  .recommendations li {
+    margin-bottom: 0.5rem;
+    list-style: disc;
+    color: #2f855a;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    form {
+      padding: 1rem;
+    }
+  
+    .out {
+      padding: 1rem;
+    }
+  }
+  
